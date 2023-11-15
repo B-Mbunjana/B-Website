@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.282)),rgba(0, 0, 0, 0.282),rgba(0, 0, 0, 0.282),url("logo/2ndlogo.PNG");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;}
+ul{
+   float:right; 
+   position: absolute;
+   list-style-type: none;
+   margin: 90px;
+   min-height: 400px;
+   margin-right: 180px;
+   font-size: small;}
+ul li{
+    display:inline-block;}
+ul li a{
+    text-decoration: underline;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;}
+ul li a:hover{
+background-color: rgb(128, 128, 128);
+color: white;}
+ul li.active a{
+    background-color: rgb(128, 128, 128);
+color: white;}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.main{
+    min-width: 1200px;
+    margin: auto;}
+.title{
+    position: absolute;
+    top:47%;
+    left:50%;
+    transform: translate(-50%,-50%);}
+.title h1{
+    color: aliceblue;
+    font-size: small;}
+.button{
+    position: absolute;
+    top:54%;
+    left:50%;
+    transform: translate(-50%,-50%);}
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;}
+.sub-menu ul{
+    position: absolute;
+}
+.main ul li:hover .sub-menu{
+display: block;
+position: absolute;
+background-color:plum;
+margin-top: 8px;
+margin-left: 6px;}
+.main ul li:hover .sub-menu{
+display: block;
+margin: 6px;}
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px;
+    transition: o.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+footer{
+    background-color:white;
+    color: black;
+    margin-bottom: 0%;
+}
+h1{
+    color:white;
+}
+h2{
+    color:white;
+}
+h3{
+    color:white;
+}
+p{
+    color:plum;
+}
